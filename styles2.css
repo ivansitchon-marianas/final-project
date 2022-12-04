@@ -1,16 +1,24 @@
 html{
     background-image: url(clouds-background.jpg);
+    align-items: center;
+}
+header{
+    background-image: url(soft-green-jpg.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    height: 10%;
 }
 h1{
     font-size: 100px;
     font-family:fantasy;
     text-align: center;
-    color: rgb(148, 226, 183);
+    height: 10%;
+    color: rgb(226, 186, 148);
     text-shadow: 5px 0 black, -5px 0 black, 0 5px black, 0 -5px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
 }
 h2{
     text-align: center;
-    color: rgb(148, 226, 183);
+    color: rgb(226, 186, 148);
     font-size: 80px;
     font-family:fantasy;
     text-shadow: 5px 0 black, -5px 0 black, 0 5px black, 0 -5px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
@@ -22,19 +30,53 @@ p{
     text-align:center;
     border: 5px solid black;
     background-image: url(soft-green-jpg.jpg);
-    
     width: 800px;
     height: 500px;
+    
+}p{
+    top: 50%;
+    left: 50%;
+    margin-top: 80px;
+    margin-left: 700px; 
+    align-items: center;
     
 }
 video{
  width: 1500px;
  height: 700px;
  border-radius: 100000000000000px;
+ align-items: center ;
 }
-p{
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: 550px; 
+
+li {
+    display: inline;
+    border-right: 1px solid #bbb;
+    float: left;
+}
+li:last-child {
+    border-right: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(226, 186, 148);
+}
+img{
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

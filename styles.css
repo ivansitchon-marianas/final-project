@@ -1,6 +1,8 @@
 
 body{
     font-size: 15px;
+    padding: 100px;
+    display: flow-root;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 table {
@@ -44,7 +46,7 @@ table.schedule td, th{
 table.schedule tr td:nth-child(1){
     text-align: left;
     font-weight: bold;
-    background-color:rgb(148, 226, 183);
+    background-color:rgb(226, 186, 148);
 }
 
 

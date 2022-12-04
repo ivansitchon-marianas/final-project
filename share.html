@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h3>Share Your Journey</h3>
+        </div>
+        <div class="row">
+          <div class="column">
+            <video autoplay="autoplay" loop muted>
+                <source src="flight.jpg.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column1">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="continent">Continent</label>
+              <select id="continent" name="continent">
+                <option value="Choose">Choose...</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Europe">Europe</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Australia/ Oceania">Australia/ Oceania</option>
+                <option value="Antartica">Antartica</option>
+
+
+
+
+                
+              </select>
+              <label for="description">Description</label>
+              <textarea id="description" name="description" placeholder="Tell your story.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <br>
+</body>
+</html>

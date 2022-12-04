@@ -1,8 +1,10 @@
-* {
+html{
+  background-image: url(clouds-background.jpg);
+}
+{
     box-sizing: border-box;
   }
   
-  /* Style inputs */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -24,31 +26,39 @@
     background-color: #45a049;
   }
   
-  /* Style the container/contact section */
+ 
   .container {
     text-align: left;
-    max-width: 1000px;
-    border-radius: 50px;
-    background-image: url(soft-green-jpg.jpg);
-    padding: 5px;
+    max-width: 100000px;
+    border-radius: 300px;
+    padding: 1px;
+    background-color: rgb(226, 186, 148);
+  }
+  video{
+    max-width: 950px;
+    max-height: 1000px;
+    border-radius: 100px;
   }
   
-  /* Create two columns that float next to eachother */
   .column {
     float: left;
-    width: 50%;
+    width: 700px;
     margin-top: 6px;
-    padding: 20px;
+    padding: 80px;
+  }
+  .column1 {
+    float: right;
+    width: 600px;
+    margin-top: 10px;
+    padding: 100px;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
@@ -73,3 +83,8 @@
   color: white;
   background-color: black;
  }
+img{
+ border-radius: 100px;
+ width: 100px;
+ height: 800px;
+}
